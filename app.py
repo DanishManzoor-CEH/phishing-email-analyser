@@ -41,6 +41,7 @@ st.set_page_config(
 st.markdown(
     """
     <style>
+    
         .main {
             padding-top: 1.5rem;
         }
@@ -106,6 +107,26 @@ st.markdown(
         div.stButton > button {
             font-weight: 600;
         }
+        .warning-card {
+    background: #ffffff !important;
+    color: #1f2937 !important;
+    border-left: 4px solid #ff4b4b;
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin: 10px 0;
+}
+
+.warning-card * {
+    color: #1f2937 !important;
+}
+
+.warning-card strong {
+    color: #111827 !important;
+}
+
+.warning-card p {
+    color: #374151 !important;
+}
     </style>
     """,
     unsafe_allow_html=True,
